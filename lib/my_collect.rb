@@ -1,6 +1,6 @@
-array = ["xbox", "playstation", "pc"]
+collection = ["xbox", "playstation", "pc"]
 
-my_collect(array) do |gamer|
+my_collect(collection) do |gamer|
   gamer.upcase
 end
 
