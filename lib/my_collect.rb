@@ -3,4 +3,5 @@ def my_collect(collection)
   new collection = []
   while i < collection.length 
   new collection << yield(collection[i])
+i += 1 
 
